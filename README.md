@@ -3,8 +3,8 @@
 Atalanta Fugiens (1617) by Michael Maier transformed into 500 chiptune musical variations with a dark academic website for browsing and listening.
 
 **🌐 Live Website:** 
+- **⭐ [https://fuguejukebox.vercel.app](https://fuguejukebox.vercel.app)** ← **LIVE ON THE WEB!**
 - **Local Development:** http://localhost:3001 (after running `npm run dev`)
-- **Vercel Deployment:** [Deploy button below] or `vercel` in website/ directory
 
 ## 🎵 Projects
 
@@ -134,9 +134,10 @@ Free to use, modify, and distribute. Attribution appreciated:
 ## 🔗 Links & Resources
 
 **Website:**
-- 🌐 **[Live Website (Local)](http://localhost:3001)** — Visit after running `npm run dev`
+- 🌐 **[Live Website](https://fuguejukebox.vercel.app)** — **LIVE! Click to browse emblems and listen to music**
+- 🏠 **[Local Development](http://localhost:3001)** — Visit after running `npm run dev`
 - 📖 **[Website Documentation](website/README.md)** — Setup and development guide
-- 🚀 **[Deployment Guide](website/LAUNCH.md)** — How to deploy to Vercel
+- 🚀 **[Deployment Guide](website/LAUNCH.md)** — Vercel deployment instructions
 
 **Music:**
 - 🎵 **[Music Project](music/)** — Generation scripts and emblem metadata
