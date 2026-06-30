@@ -2,10 +2,14 @@
 
 Atalanta Fugiens (1617) by Michael Maier transformed into 500 chiptune musical variations with a dark academic website for browsing and listening.
 
+**🌐 Live Website:** 
+- **Local Development:** http://localhost:3001 (after running `npm run dev`)
+- **Vercel Deployment:** [Deploy button below] or `vercel` in website/ directory
+
 ## 🎵 Projects
 
+- **[website/](website/)** — 🌐 **[Live Website](http://localhost:3001)** — React/Next.js dark academic website with playable audio embeds
 - **[music/](music/)** — 500 NES-style chiptune MP3s (50 emblems × 10 variations each)
-- **[website/](website/)** — React/Next.js dark academic website with playable audio embeds
 
 ## 🚀 Quick Start
 
@@ -14,7 +18,13 @@ Atalanta Fugiens (1617) by Michael Maier transformed into 500 chiptune musical v
 cd website
 npm install
 npm run dev
-# Visit http://localhost:3001
+```
+**→ Open http://localhost:3001 in your browser**
+
+**Deploy to Vercel:**
+```bash
+cd website
+vercel
 ```
 
 ### Music Files
@@ -121,11 +131,21 @@ Free to use, modify, and distribute. Attribution appreciated:
 
 > FUGUEJUKEBOX © 2026 | Based on *Atalanta Fugiens* by Michael Maier (1617) | Made with Python, Next.js, and Claude Code
 
-## 🔗 Links
+## 🔗 Links & Resources
 
-- **Project Home:** [C:\Dev\FUGUEJUKEBOX](../FUGUEJUKEBOX/)
-- **Website Source:** [C:\Dev\FUGUEJUKEBOX-website](../FUGUEJUKEBOX-website/)
-- **Live Website:** http://localhost:3001 (when running)
+**Website:**
+- 🌐 **[Live Website (Local)](http://localhost:3001)** — Visit after running `npm run dev`
+- 📖 **[Website Documentation](website/README.md)** — Setup and development guide
+- 🚀 **[Deployment Guide](website/LAUNCH.md)** — How to deploy to Vercel
+
+**Music:**
+- 🎵 **[Music Project](music/)** — Generation scripts and emblem metadata
+- 📚 **[Music Documentation](music/README.md)** — Overview and listening guide
+- 📋 **[Emblem Catalog](music/CATALOG.md)** — All 50 emblems listed
+
+**Repository:**
+- 📦 **[GitHub Repository](https://github.com/t3dy/FugueJukebox)** — Source code
+- 📝 **[Deployment Guide](DEPLOYMENT.md)** — Clone and deployment instructions
 
 ## 📝 Credits
 
