@@ -224,7 +224,7 @@ function VariationCard({
   onPlay: () => void
 }) {
   const filename = `emblem_${String(emblemId).padStart(2, '0')}_variation_${String(variationNum).padStart(2, '0')}.mp3`
-  const mp3Path = `../../../FUGUEJUKEBOX/emblems/emblem_${String(emblemId).padStart(2, '0')}/${filename}`
+  const mp3Path = `/music/emblems/emblem_${String(emblemId).padStart(2, '0')}/${filename}`
 
   const categoryColors: { [key: number]: string } = {
     1: 'text-blue-400',
