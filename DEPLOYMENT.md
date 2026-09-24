@@ -28,19 +28,29 @@
 - **DEPLOYMENT.md** — This file
 - **.gitignore** — Excludes build artifacts and large files
 
-## What's NOT in the Repository
+## Audio Files in the Repository
 
-### MP3 Audio Files (140 MB)
-The 500 MP3 files are **not included** in the GitHub repository because:
-1. GitHub has file size limits (100 MB hard limit per file)
-2. Repository size recommendations (< 1 GB total)
-3. Large binaries impact cloning speed
+### MP3 Audio Files (140 MB) - NOW INCLUDED with Git LFS
+The 500 MP3 files **are now included** in the GitHub repository using Git LFS:
+1. Files are tracked with **Git LFS** (Large File Storage) for efficient storage
+2. Audio files are in `website/public/music/emblems/` for static serving
+3. Web-accessible paths: `/music/emblems/emblem_XX/emblem_XX_variation_YY.mp3`
+4. All 500 MP3s preserved in git history without bloating the repository
 
-**Location:** `C:\Dev\FUGUEJUKEBOX\emblems\` (local storage)
+**Location:** `website/public/music/emblems/` (served as static assets)
 
-**Option for future inclusion:**
-- Use **Git LFS** (Large File Storage) to add MP3s to the repository
-- Document will be updated if LFS is set up
+**To work with Git LFS files:**
+```bash
+# Install Git LFS (one-time setup)
+git lfs install
+
+# Clone with LFS support
+git clone https://github.com/t3dy/FugueJukebox.git
+cd FugueJukebox
+
+# The MP3 files will download automatically during clone
+# All 500 audio files are now ready to serve
+```
 
 ## Cloning and Running Locally
 
@@ -80,9 +90,13 @@ FugueJukebox/
 ├── README.md              # Project overview
 ├── DEPLOYMENT.md          # This file
 ├── .gitignore            # Git ignore rules
+├── .gitattributes        # Git LFS configuration
 ├── website/              # React/Next.js website
 │   ├── app/             # React app code
 │   ├── data/            # Emblem metadata
+│   ├── public/
+│   │   └── music/       # Audio files (served statically)
+│   │       └── emblems/ # All 500 MP3s × 50 emblems
 │   ├── package.json
 │   ├── README.md
 │   └── LAUNCH.md
