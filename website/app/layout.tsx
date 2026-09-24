@@ -4,8 +4,10 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'FUGUEJUKEBOX',
   description: 'Atalanta Fugiens Chiptune Variations - 50 Emblems × 10 Musical Interpretations',
-  viewport: 'width=device-width, initial-scale=1',
-  charset: 'utf-8',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+  },
 }
 
 export default function RootLayout({
